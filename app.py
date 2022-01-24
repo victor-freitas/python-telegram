@@ -4,15 +4,15 @@ import csv
 import random
 
 accounts = (
-    ('Meu', '5511985198116',),
-    ('mee', '5511985198117',),
-    ('nom', '5511908712569',),
+    ('Meu', 'tsts',),
+    ('mee', 'tsts',),
+    ('nom', 'tst ',),
 )
 sessions = []
 for name, phone in accounts:
     tg = Telegram(
-        api_id='11856141',
-        api_hash='0967b24e099f566c389156639d3e870f',
+        api_id='',
+        api_hash='',
         phone=phone,
         database_encryption_key='teste123',
         files_directory=f'/tmp/.tdlib_files/{phone}/'    
