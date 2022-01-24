@@ -1,0 +1,12 @@
+migrations
+pycache
+static
+templates
+admin.py
+app.py
+forms.py
+models.py
+tests.py
+tg_client.py
+urls.py
+views.py
