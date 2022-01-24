@@ -1,0 +1,37 @@
+{% load static %}
+{% load bootstrap %}
+
+<!doctype html>
+
+<html lang="pt-br">
+  <head>
+    {% block page_title %}
+        <title> Validar Telegram </title>
+    {% endblock %}
+
+    {% block styles %}
+
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+       <link rel="stylesheet" href="{% static 'css/style.css' %}"> 
+    
+    {% endblock styles %}
+
+
+  </head>
+
+  <body>
+    <main>
+      {% block content %}
+      
+      {% endblock %}
+    </main>
+
+    {% block scripts %}   
+
+    {% endblock scripts %}
+
+  </body>
+</html>
